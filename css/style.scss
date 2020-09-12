@@ -130,7 +130,7 @@ nav {
     margin-right: 0.875vw;
   }
   .top-menu__link {
-    padding: 0.95vw 0.563vw;
+    padding: 0.9vw 0.563vw;
     font-size: 0.8748vw;
     font-weight: bold;
     color: #222222;
@@ -487,6 +487,9 @@ main {
     .breadcrumb-item a{
       color: #636363;
       text-transform: uppercase;
+      &:hover {
+        color: $red;
+      }
     }
     .breadcrumb-item + .breadcrumb-item::before {
       display: inline-block;
@@ -496,7 +499,7 @@ main {
     }
   }
   .cart {
-
+    
   }
 }
 footer {

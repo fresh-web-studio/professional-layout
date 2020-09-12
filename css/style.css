@@ -108,7 +108,7 @@ nav .top-menu__row {
 nav .top-menu__link:not(last-child) {
   margin-right: 0.875vw; }
 nav .top-menu__link {
-  padding: 0.95vw 0.563vw;
+  padding: 0.9vw 0.563vw;
   font-size: 0.8748vw;
   font-weight: bold;
   color: #222222;
@@ -389,6 +389,8 @@ main .breadcrumb {
   main .breadcrumb .breadcrumb-item a {
     color: #636363;
     text-transform: uppercase; }
+    main .breadcrumb .breadcrumb-item a:hover {
+      color: #f16d7f; }
   main .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
     display: inline-block;
     padding: 0 0.5vw;
