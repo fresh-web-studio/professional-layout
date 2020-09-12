@@ -94,9 +94,10 @@ header {
   header .header__cart {
     width: 2vw;
     height: 1.812vw;
-    margin-right: 1.625vw;
-    margin-left: auto;
     cursor: pointer; }
+  header .header__cart-link {
+    margin-left: auto;
+    margin-right: 1.625vw; }
 
 nav .top-menu__row {
   height: 3.125vw;
