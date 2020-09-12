@@ -126,8 +126,11 @@ nav {
     align-items: center;
     list-style: none;
   }
+  .top-menu__link:not(last-child) {
+    margin-right: 0.875vw;
+  }
   .top-menu__link {
-    padding: 0.7200vw 1.4376vw;
+    padding: 0.95vw 0.563vw;
     font-size: 0.8748vw;
     font-weight: bold;
     color: #222222;
@@ -135,9 +138,10 @@ nav {
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
+    border-bottom: 0.188vw solid transparent;
+    border-top: 0.188vw solid transparent;
     &:hover {
-      color: #fff;
-      background-color: $red-h;
+      border-bottom: 0.188vw solid $red-h;
     }
   }
 }
@@ -457,6 +461,42 @@ main {
       border-top-left-radius: 1.438vw;
       border-bottom-left-radius: 1.438vw;
     }
+  }
+  .breadcrumb {
+    background-color: #f8f3f4;
+    .breadcrumb-row {
+      height: 9.250vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .breadcrumb__title {
+      font-size: 1.500vw;
+      color: $red;
+      text-transform: uppercase;
+    }
+
+    .breadcrumb-list {
+      display: flex;
+      list-style: none;
+      .active {
+        color: $red;
+        text-transform: uppercase;
+      }
+    }
+    .breadcrumb-item a{
+      color: #636363;
+      text-transform: uppercase;
+    }
+    .breadcrumb-item + .breadcrumb-item::before {
+      display: inline-block;
+      padding: 0 0.5vw;
+      color: #636363;
+      content: "/";
+    }
+  }
+  .cart {
+
   }
 }
 footer {
