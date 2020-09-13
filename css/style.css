@@ -86,11 +86,15 @@ header {
     border: none;
     border-right: 0.0624vw solid #e6e6e6;
     padding: 0 0.9996vw;
-    color: #a4a4a4; }
+    color: #a4a4a4;
+    margin: 0; }
   header .header__btnSearch {
     border: none;
     width: 2.1876vw;
-    cursor: pointer; }
+    cursor: pointer;
+    margin: 0;
+    background-color: transparent;
+    color: #a4a4a4; }
   header .header__cart {
     width: 2vw;
     height: 1.812vw;
