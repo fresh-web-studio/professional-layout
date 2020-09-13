@@ -336,7 +336,8 @@ main .subscribe {
     width: 8.750vw;
     margin-top: 2.375vw;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    -webkit-appearance: none; }
   main .subscribe .subscribe__line {
     width: 2.375vw;
     height: 0.250vw;
