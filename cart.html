@@ -23,7 +23,7 @@
                 <button class="header__btnSearch"><i class="fas fa-search"></i></button>
             </form>
             <a href="cart.html" class="header__cart-link"><img class="header__cart" src="images/cart.svg" alt="Корзина"></a>
-            <button class="btn header__account" >
+            <button class="btn header__account">
                 My Account<i class="fas fa-caret-down"></i>
             </button>
         </div>
@@ -47,13 +47,119 @@
             <div class="breadcrumb__title">
                 New Arrivals
             </div>
-            <nav >
+            <nav>
                 <ol class="breadcrumb-list">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Men</a></li>
                     <li class="breadcrumb-item active" aria-current="page">New Arrivals</li>
                 </ol>
             </nav>
+        </div>
+    </div>
+    <div class="cart">
+        <div class="container cart__margin">
+            <div class="cart__header">
+                <div class="cart__column-details">Product details</div>
+                <div class="cart__column">Unite price</div>
+                <div class="cart__column">Quantity</div>
+                <div class="cart__column">Shipping</div>
+                <div class="cart__column">Subtotal</div>
+                <div class="cart__column">Action</div>
+            </div>
+            <div>
+                <div class="cart__row">
+                    <div class="cart__column-details">
+                        <div class="cart__column-img">
+                            <img src="images/item__photo1.jpg" alt="Фото товара">
+                        </div>
+                        <div class="cart__details">
+                            <div class="cart__item-name">Mango People T-shirt</div>
+                            <div class="cart__item-color">Color: <span>Red</span></div>
+                            <div class="cart__item-size">Size: <span>XL</span></div>
+                        </div>
+                    </div>
+                    <div class="cart__column">$150</div>
+                    <div class="cart__column"><input type="text" value="2"></div>
+                    <div class="cart__column">Free</div>
+                    <div class="cart__column">$300</div>
+                    <div class="cart__column"><i class="fas fa-times-circle"></i></div>
+                </div>
+                <div class="cart__row">
+                    <div class="cart__column-details">
+                        <div class="cart__column-img">
+                            <img src="images/item__photo2.jpg" alt="Фото товара">
+                        </div>
+                        <div class="cart__details">
+                            <div class="cart__item-name">Mango People T-shirt</div>
+                            <div class="cart__item-color">Color: <span>Red</span></div>
+                            <div class="cart__item-size">Size: <span>XL</span></div>
+                        </div>
+                    </div>
+                    <div class="cart__column">$150</div>
+                    <div class="cart__column"><input type="text" value="2"></div>
+                    <div class="cart__column">Free</div>
+                    <div class="cart__column">$300</div>
+                    <div class="cart__column"><i class="fas fa-times-circle"></i></div>
+                </div>
+                <div class="cart__row">
+                    <div class="cart__column-details">
+                        <div class="cart__column-img">
+                            <img src="images/item__photo3.jpg" alt="Фото товара">
+                        </div>
+                        <div class="cart__details">
+                            <div class="cart__item-name">Mango People T-shirt</div>
+                            <div class="cart__item-color">Color: <span>Red</span></div>
+                            <div class="cart__item-size">Size: <span>XL</span></div>
+                        </div>
+                    </div>
+                    <div class="cart__column">$150</div>
+                    <div class="cart__column"><input type="text" value="2"></div>
+                    <div class="cart__column">Free</div>
+                    <div class="cart__column">$300</div>
+                    <div class="cart__column"><i class="fas fa-times-circle"></i></div>
+                </div>
+            </div>
+
+            <div class="cart__buttons">
+                <button class="cart__button">Clear shopping cart</button>
+                <button class="cart__button">Continue shopping</button>
+            </div>
+            <div class="cart__check">
+                <div class="cart__address">
+                    <div class="cart__title">Shipping Address</div>
+                    <form action="">
+                        <div class="cart__frame">
+                            <select required="">
+                            <option>Bangladesh</option>
+                            <option>Russia</option>
+                            <option>Australia</option>
+                            </select>
+                        </div>
+                        <input required="" type="text" placeholder="State">
+                        <input required="" type="number" placeholder="Postcode / Zip">
+                        <button class="cart__button">Get a quote</button>
+                    </form>
+                </div>
+                <div class="cart__coupon">
+                    <div class="cart__title">Coupon Discount</div>
+                    <form>
+                        <label for="state">Enter your coupon code if you have one</label>
+                        <input id="state" type="text" placeholder="State">
+                        <button class="cart__button">Apply coupon</button>
+                    </form>
+                </div>
+                <div class="cart__total">
+                    <div class="cart__total-sub">
+                        <span>Sub total</span>
+                        <span>$900</span>
+                    </div>
+                    <div class="cart__total-grand">
+                        <span>Grand total</span>
+                        <span>$900</span>
+                    </div>
+                    <button class="cart__btn">Proceed to checkout</button>
+                </div>
+            </div>
         </div>
     </div>
     <div class="subscribe">
@@ -99,7 +205,9 @@
             <div class="footer__column">
                 <img class="footer__logo" src="images/logo.svg" alt="Логотип">
                 <div class="footer__text">
-                    Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
+                    Objectively transition extensive data rather than cross functional solutions. Monotonectally
+                    syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded
+                    array of processes and cross-unit partnerships.
                 </div>
                 <div class="footer__text">
                     Efficiently plagiarize 24/365 action items and focused infomediaries.
@@ -141,7 +249,7 @@
     <div class="footer__bottom">
         <div class="container footer__row">
             <div class="footer__copyright">
-                © 2017  Brand  All Rights Reserved.
+                © 2017 Brand All Rights Reserved.
             </div>
             <div class="footer__social">
                 <a href="#" class="footer__btn">
