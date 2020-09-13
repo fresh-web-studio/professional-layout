@@ -534,7 +534,7 @@ main {
       width: 17.625vw;
       border: none;
       outline: none;
-      padding: 0 28px;
+      padding: 0 1.750vw;
       font-weight: 700;
       background-color: #e1e1e1;
       border-top-left-radius: 1.438vw;
@@ -624,6 +624,9 @@ main {
     }
     .cart__column-img {
       width: 6.250vw;
+      img {
+        width: 100%;
+      }
     }
     .cart__column-details {
       width: 31.250vw;
@@ -638,10 +641,11 @@ main {
       align-items: center;
     }
     .cart__column input {
-      width: 54px;
-      border: 1px solid #eaeaea;
+      font-size: 0.813vw;
+      width: 3.375vw;
+      border: 0.063vw solid #eaeaea;
       text-align: center;
-      height: 30px;
+      height: 1.875vw;
     }
     .cart__details {
       margin-left: 1.250vw;

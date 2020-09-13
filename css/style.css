@@ -364,7 +364,7 @@ main .subscribe {
     width: 17.625vw;
     border: none;
     outline: none;
-    padding: 0 28px;
+    padding: 0 1.750vw;
     font-weight: 700;
     background-color: #e1e1e1;
     border-top-left-radius: 1.438vw;
@@ -426,6 +426,8 @@ main .cart .cart__header {
   margin-bottom: 1.375vw; }
 main .cart .cart__column-img {
   width: 6.250vw; }
+  main .cart .cart__column-img img {
+    width: 100%; }
 main .cart .cart__column-details {
   width: 31.250vw;
   display: flex;
@@ -437,10 +439,11 @@ main .cart .cart__column {
   justify-content: center;
   align-items: center; }
 main .cart .cart__column input {
-  width: 54px;
-  border: 1px solid #eaeaea;
+  font-size: 0.813vw;
+  width: 3.375vw;
+  border: 0.063vw solid #eaeaea;
   text-align: center;
-  height: 30px; }
+  height: 1.875vw; }
 main .cart .cart__details {
   margin-left: 1.250vw; }
 main .cart .cart__buttons {
