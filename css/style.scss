@@ -31,7 +31,7 @@ button {
 
 $con-width: 73.1256vw; // Ширина базового контейнера
 $red: #f16d7f; // Основной красный цвет
-$red-h: #f65168; //цвет при наведении на кнопки
+$red-h: darken($red, 10%); //цвет при наведении на кнопки
 
 .container {
   width: $con-width;
@@ -131,15 +131,13 @@ header {
     }
   }
 
-  .header__cart {
-    width: 2vw;
-    height: 1.812vw;
-    cursor: pointer;
-  }
-
   .header__cart-link {
     margin-left: auto;
     margin-right: 1.625vw;
+    display: flex;
+    &:hover {
+      fill: $red-h;
+    }
   }
 }
 
@@ -170,6 +168,7 @@ nav {
 
     &:hover {
       border-bottom: 0.188vw solid $red-h;
+      color: $red-h;
     }
   }
 }
@@ -208,7 +207,7 @@ main {
       margin-top: 1.0800vw;
 
       span {
-        color: #f16d7f;
+        color: $red;
       }
     }
   }
@@ -293,7 +292,6 @@ main {
     .feature__item {
       width: ($con-width / 4) - (0.9372vw * 2);
       margin: 1.2504vw 0.9372vw;
-      height: 23.1252vw;
     }
 
     .feature__item:hover {
@@ -319,7 +317,6 @@ main {
       background: rgba(0, 0, 0, 0.5);
       display: none;
       position: absolute;
-      cursor: pointer;
     }
 
     .feature__item:hover .feature__bay-button {
@@ -329,6 +326,7 @@ main {
     }
 
     .feature__bay {
+      fill: #fff;
       padding: 0.9372vw;
       border: 0.0624vw solid #ffffff;
       background: none;
@@ -345,7 +343,7 @@ main {
       background-color: $red-h;
     }
 
-    .feature__bay img {
+    .feature__bay svg {
       margin-right: 0.6252vw;
     }
 
@@ -362,7 +360,7 @@ main {
 
     .feature-price {
       font-size: 0.9996vw;
-      color: rgb(241, 109, 127);
+      color: $red;
       font-weight: bold;
       text-transform: uppercase;
     }
@@ -477,7 +475,7 @@ main {
 
     .subscribe__name {
       font-size: 1vw;
-      color: rgb(241, 109, 127);
+      color: $red;
       margin-top: 0.8vw;
     }
 
@@ -586,7 +584,7 @@ main {
       text-transform: uppercase;
 
       &:hover {
-        color: $red;
+        color: $red-h;
       }
     }
 
@@ -807,7 +805,7 @@ footer {
 
   .footer__name {
     font-size: 1.125vw;
-    color: rgb(241, 109, 127);
+    color: $red;
     font-weight: bold;
     text-transform: uppercase;
   }

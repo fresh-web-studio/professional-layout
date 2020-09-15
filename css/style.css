@@ -40,7 +40,7 @@ button {
   align-items: center;
   cursor: pointer; }
   .btn:hover {
-    background-color: #f65168; }
+    background-color: #ed3e56; }
 
 .btn i {
   margin-left: 0.5vw; }
@@ -98,14 +98,13 @@ header {
     background-color: transparent;
     color: #a4a4a4; }
     header .header__btnSearch:hover {
-      color: #f65168; }
-  header .header__cart {
-    width: 2vw;
-    height: 1.812vw;
-    cursor: pointer; }
+      color: #ed3e56; }
   header .header__cart-link {
     margin-left: auto;
-    margin-right: 1.625vw; }
+    margin-right: 1.625vw;
+    display: flex; }
+    header .header__cart-link:hover {
+      fill: #ed3e56; }
 
 nav .top-menu__row {
   height: 3.125vw;
@@ -127,7 +126,8 @@ nav .top-menu__link {
   border-bottom: 0.188vw solid transparent;
   border-top: 0.188vw solid transparent; }
   nav .top-menu__link:hover {
-    border-bottom: 0.188vw solid #f65168; }
+    border-bottom: 0.188vw solid #ed3e56;
+    color: #ed3e56; }
 
 main .promo {
   height: 38.1252vw;
@@ -207,8 +207,7 @@ main .feature .feature__list {
   flex-wrap: wrap; }
 main .feature .feature__item {
   width: 16.407vw;
-  margin: 1.2504vw 0.9372vw;
-  height: 23.1252vw; }
+  margin: 1.2504vw 0.9372vw; }
 main .feature .feature__item:hover {
   box-shadow: 0 0.312vw 0.5004vw 0 rgba(0, 0, 0, 0.16); }
 main .feature .feature__img-button {
@@ -225,13 +224,13 @@ main .feature .feature__bay-button {
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
   display: none;
-  position: absolute;
-  cursor: pointer; }
+  position: absolute; }
 main .feature .feature__item:hover .feature__bay-button {
   display: flex;
   justify-content: center;
   align-items: center; }
 main .feature .feature__bay {
+  fill: #fff;
   padding: 0.9372vw;
   border: 0.0624vw solid #ffffff;
   background: none;
@@ -243,8 +242,8 @@ main .feature .feature__bay {
   align-items: center;
   cursor: pointer; }
 main .feature .feature__bay:hover {
-  background-color: #f65168; }
-main .feature .feature__bay img {
+  background-color: #ed3e56; }
+main .feature .feature__bay svg {
   margin-right: 0.6252vw; }
 main .feature .feature__name-price {
   padding: 0.9372vw; }
@@ -403,7 +402,7 @@ main .breadcrumb {
     color: #636363;
     text-transform: uppercase; }
     main .breadcrumb .breadcrumb-item a:hover {
-      color: #f16d7f; }
+      color: #ed3e56; }
   main .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
     font-size: 0.875vw;
     display: inline-block;
@@ -476,7 +475,7 @@ main .cart .cart__button {
   font-weight: 700;
   cursor: pointer; }
   main .cart .cart__button:hover {
-    background-color: #f65168;
+    background-color: #ed3e56;
     color: #fff; }
 main .cart .cart__check {
   display: flex;
@@ -561,7 +560,7 @@ main .cart .cart__btn {
   font-weight: 700;
   border: none; }
   main .cart .cart__btn:hover {
-    background-color: #f65168; }
+    background-color: #ed3e56; }
 
 footer .footer__top {
   padding: 6.875vw 0 5.625vw; }
@@ -593,7 +592,7 @@ footer .footer__column a {
   color: #898989;
   font-size: 1vw; }
   footer .footer__column a:hover {
-    color: #f65168; }
+    color: #ed3e56; }
 footer .footer__row {
   display: flex;
   justify-content: space-between;
@@ -617,7 +616,7 @@ footer .footer__btn {
   align-items: center;
   cursor: pointer; }
   footer .footer__btn:hover {
-    background-color: #f65168;
+    background-color: #ed3e56;
     color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
