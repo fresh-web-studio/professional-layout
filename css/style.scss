@@ -797,6 +797,9 @@ main {
           border-radius: 0;
           position: absolute;
           top: 50%;
+          &:hover {
+            background: darken($red, 10%);
+          }
         }
         button.owl-prev {
           left: -13.8vw;

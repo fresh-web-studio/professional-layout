@@ -571,6 +571,8 @@ main .slider {
     border-radius: 0;
     position: absolute;
     top: 50%; }
+    main .slider .slide-wrapper .owl-theme .owl-nav button.owl-prev:hover, main .slider .slide-wrapper .owl-theme .owl-nav button.owl-next:hover {
+      background: #ed3e56; }
   main .slider .slide-wrapper .owl-theme .owl-nav button.owl-prev {
     left: -13.8vw; }
   main .slider .slide-wrapper .owl-theme .owl-nav button.owl-next {
