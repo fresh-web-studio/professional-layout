@@ -83,12 +83,14 @@ header {
   header .header__btnBrowse i {
     margin-left: 0.5vw; }
   header input[type="text"] {
+    font-size: 0.875vw;
     border: none;
     border-right: 0.0624vw solid #e6e6e6;
     padding: 0 0.9996vw;
     color: #a4a4a4;
     margin: 0; }
   header .header__btnSearch {
+    font-size: 0.8vw;
     border: none;
     width: 2.1876vw;
     cursor: pointer;
@@ -312,14 +314,13 @@ main .subscribe {
     width: 50%; }
   main .subscribe .subscribe__review {
     margin-top: 8vw;
-    display: flex;
-    justify-content: space-between; }
+    display: flex; }
     main .subscribe .subscribe__review img {
       width: 5.188vw;
       height: 5.188vw; }
   main .subscribe .subscribe__review-box {
-    width: 24.125vw;
-    padding-right: 3.125vw; }
+    width: 26.5vw;
+    padding-left: 1.750vw; }
   main .subscribe .subscribe__text {
     font-size: 1vw;
     color: #222224;
@@ -368,6 +369,7 @@ main .subscribe {
     outline: none;
     cursor: pointer; }
   main .subscribe .subscribe__input {
+    font-size: 0.875vw;
     width: 17.625vw;
     border: none;
     outline: none;
@@ -392,13 +394,18 @@ main .breadcrumb {
     list-style: none; }
     main .breadcrumb .breadcrumb-list .active {
       color: #f16d7f;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-size: 0.875vw; }
+  main .breadcrumb .breadcrumb-item {
+    display: flex; }
   main .breadcrumb .breadcrumb-item a {
+    font-size: 0.875vw;
     color: #636363;
     text-transform: uppercase; }
     main .breadcrumb .breadcrumb-item a:hover {
       color: #f16d7f; }
   main .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    font-size: 0.875vw;
     display: inline-block;
     padding: 0 0.5vw;
     color: #636363;
@@ -459,6 +466,7 @@ main .cart .cart__buttons {
   display: flex;
   justify-content: space-between; }
 main .cart .cart__button {
+  font-size: 0.875vw;
   margin-top: 1.375vw;
   padding: 1.250vw 2.500vw;
   border: 0.063vw solid #eaeaea;
@@ -473,6 +481,7 @@ main .cart .cart__button {
 main .cart .cart__check {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   margin-bottom: 1.438vw; }
   main .cart .cart__check input {
     margin-top: 1.375vw;
@@ -499,6 +508,7 @@ main .cart .cart__check {
     outline: none;
     box-sizing: border-box; }
   main .cart .cart__check select {
+    font-size: 0.813vw;
     width: 100%;
     outline: none;
     border: none;
@@ -513,7 +523,6 @@ main .cart .cart__address, main .cart .cart__coupon {
   width: 22.188vw; }
 main .cart .cart__total {
   width: 22.500vw;
-  height: 13.375vw;
   background-color: #f5f3f3;
   padding: 2.500vw;
   box-sizing: border-box; }
@@ -578,9 +587,11 @@ footer .footer__column:first-child {
 footer .footer__column li {
   list-style: none; }
 footer .footer__column li:not(last-child) {
-  margin-top: 1.688vw; }
+  margin-top: 1.688vw;
+  line-height: 1vw; }
 footer .footer__column a {
-  color: #898989; }
+  color: #898989;
+  font-size: 1vw; }
   footer .footer__column a:hover {
     color: #f65168; }
 footer .footer__row {

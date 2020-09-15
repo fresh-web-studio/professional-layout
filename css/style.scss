@@ -110,6 +110,7 @@ header {
   }
 
   input[type="text"] {
+    font-size: 0.875vw;
     border: none;
     border-right: 0.0624vw solid rgb(230, 230, 230);
     padding: 0 0.9996vw;
@@ -118,6 +119,7 @@ header {
   }
 
   .header__btnSearch {
+    font-size: 0.8vw;
     border: none;
     width: 2.1876vw;
     cursor: pointer;
@@ -456,8 +458,6 @@ main {
     .subscribe__review {
       margin-top: 8vw;
       display: flex;
-      justify-content: space-between;
-
       img {
         width: 5.188vw;
         height: 5.188vw;
@@ -465,8 +465,8 @@ main {
     }
 
     .subscribe__review-box {
-      width: 24.125vw;
-      padding-right: 3.125vw;
+      width: 26.5vw;
+      padding-left: 1.750vw;
     }
 
     .subscribe__text {
@@ -539,6 +539,7 @@ main {
     }
 
     .subscribe__input {
+      font-size: 0.875vw;
       width: 17.625vw;
       border: none;
       outline: none;
@@ -573,10 +574,14 @@ main {
       .active {
         color: $red;
         text-transform: uppercase;
+        font-size: 0.875vw;
       }
     }
-
+    .breadcrumb-item {
+      display: flex;
+    }
     .breadcrumb-item a {
+      font-size: 0.875vw;
       color: #636363;
       text-transform: uppercase;
 
@@ -586,6 +591,7 @@ main {
     }
 
     .breadcrumb-item + .breadcrumb-item::before {
+      font-size: 0.875vw;
       display: inline-block;
       padding: 0 0.5vw;
       color: #636363;
@@ -665,6 +671,7 @@ main {
       justify-content: space-between;
     }
     .cart__button {
+      font-size: 0.875vw;
       margin-top: 1.375vw;
       padding: 1.250vw 2.500vw;
       border: 0.063vw solid #eaeaea;
@@ -681,6 +688,7 @@ main {
     .cart__check {
       display: flex;
       justify-content: space-between;
+      align-items: flex-start;
       margin-bottom: 1.438vw;
       input {
         margin-top: 1.375vw;
@@ -709,6 +717,7 @@ main {
         box-sizing: border-box;
       }
       select {
+        font-size: 0.813vw;
         width: 100%;
         outline: none;
         border: none;
@@ -727,7 +736,6 @@ main {
     }
     .cart__total {
       width: 22.500vw;
-      height: 13.375vw;
       background-color: #f5f3f3;
       padding: 2.500vw;
       box-sizing: border-box;
@@ -820,11 +828,12 @@ footer {
 
   .footer__column li:not(last-child) {
     margin-top: 1.688vw;
+    line-height: 1vw;
   }
 
   .footer__column a {
     color: #898989;
-
+    font-size: 1vw;
     &:hover {
       color: $red-h;
     }
