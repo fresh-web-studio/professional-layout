@@ -909,6 +909,7 @@ main {
       color: rgb(47, 47, 47);
       font-weight: bold;
     }
+
     .product__choose select, .product__choose input {
       width: 9vw;
       height: 2.188vw;
@@ -919,14 +920,18 @@ main {
       color: #bcbcbc;
       outline: none;
     }
-    .red {
-      background-image: url('../images/red.svg');
-      background-repeat: no-repeat;
-      background-size: 20px;
-      padding-left: 20px;
-      background-position: 0 1px;
+    .product__choose select.product__select {
+      padding-left: 1.8vw;
     }
-    select option[value="Red"]:after {
+    .product__color-value {
+      position: relative;
+      width: 0.750vw;
+      height: 0.750vw;
+      background: $red;
+      top: -1.5vw;
+      left: 0.875vw;
+    }
+/*    select option[value="Red"]:after {
       content: "";
       background-position: center;
       width: 2.81vw;
@@ -938,7 +943,7 @@ main {
       background-image: url(../images/red.svg);
       background-size: 1vw;
       position: absolute;
-    }
+    }*/
     .product__bay {
       display: flex;
       width: 100%;
