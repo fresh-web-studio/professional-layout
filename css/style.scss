@@ -784,6 +784,38 @@ main {
       }
     }
   }
+
+  .slider {
+    background-color: #f7f7f7;
+    .slide-wrapper {
+      .owl-theme .owl-nav {
+        button.owl-prev, button.owl-next {
+          font-size: 1.500vw;
+          background: #d8d8d8;
+          color: #fff;
+          padding: 0.661vw 1.103vw !important;
+          border-radius: 0;
+          position: absolute;
+          top: 50%;
+        }
+        button.owl-prev {
+          left: -13.8vw;
+        }
+        button.owl-next {
+          right: -13.8vw;
+        }
+      }
+    }
+    .slide-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        height: auto;
+        width: auto;
+      }
+    }
+  }
 }
 
 footer {

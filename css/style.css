@@ -561,6 +561,27 @@ main .cart .cart__btn {
   border: none; }
   main .cart .cart__btn:hover {
     background-color: #ed3e56; }
+main .slider {
+  background-color: #f7f7f7; }
+  main .slider .slide-wrapper .owl-theme .owl-nav button.owl-prev, main .slider .slide-wrapper .owl-theme .owl-nav button.owl-next {
+    font-size: 1.500vw;
+    background: #d8d8d8;
+    color: #fff;
+    padding: 0.661vw 1.103vw !important;
+    border-radius: 0;
+    position: absolute;
+    top: 50%; }
+  main .slider .slide-wrapper .owl-theme .owl-nav button.owl-prev {
+    left: -13.8vw; }
+  main .slider .slide-wrapper .owl-theme .owl-nav button.owl-next {
+    right: -13.8vw; }
+  main .slider .slide-item {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    main .slider .slide-item img {
+      height: auto;
+      width: auto; }
 
 footer .footer__top {
   padding: 6.875vw 0 5.625vw; }

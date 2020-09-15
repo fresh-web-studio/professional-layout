@@ -7,8 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
           integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <title>Главная страница</title>
+    <title>Карточка товара</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.css">
 </head>
 <body>
 <header class="header">
@@ -50,7 +52,34 @@
     </ul>
 </nav>
 <main>
-
+    <div class="breadcrumb">
+        <div class="container breadcrumb-row">
+            <div class="breadcrumb__title">
+                New Arrivals
+            </div>
+            <nav>
+                <ol class="breadcrumb-list">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Men</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">New Arrivals</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="container">
+            <div class="slide-wrapper">
+                <div class="owl-carousel owl-theme" id="owl-carousel1">
+                    <div class="slide-item">
+                        <img src="images/lady.jpg" alt="Девушка">
+                    </div>
+                    <div class="slide-item">
+                        <img src="images/lady.jpg" alt="Девушка">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="subscribe">
         <div class="container subscribe__row">
             <div class="subscribe__review">
@@ -158,5 +187,8 @@
         </div>
     </div>
 </footer>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="js/main_slider.js"></script>
 </body>
 </html>
