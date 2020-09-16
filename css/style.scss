@@ -923,6 +923,51 @@ main {
     .product__choose select.product__select {
       padding-left: 1.8vw;
     }
+
+    .dd-pointer-down {
+      border: solid 5px transparent;
+      border-top: solid 5px #bcbcbc;
+    }
+    .dd-pointer-up {
+      border: solid 5px transparent !important;
+      border-bottom: solid 5px #bcbcbc !important;
+      margin-top: -8px;
+    }
+
+    .dd-selected-text, .dd-option-text {
+      line-height: 1.2vw!important;
+      font-size: 0.813vw;
+    }
+    #select-color li .dd-option-text {
+      margin-left: -0.24vw;;
+    }
+    .dd-select {
+      border-radius: 0;
+      border: 0.063vw solid #eaeaea;
+    }
+    .dd-selected {
+      height: 2.188vw;
+      padding: 0.500vw 0.625vw;
+      font-size: 0.813vw;
+      font-weight: 400;
+      display: flex;
+      color: #bcbcbc;
+    }
+    .dd-option {
+      padding: 0.500vw 0.625vw;
+      height: 2.188vw;
+      border-bottom: 0.063vw solid #eaeaea;
+      color: #bcbcbc;
+    }
+
+
+    .dd-option-image, .dd-selected-image {
+      vertical-align: inherit;
+      float: none;
+      margin-right: 0.750vw;
+      max-width: 0.750vw;
+    }
+
     .product__color-value {
       position: relative;
       width: 0.750vw;
@@ -931,19 +976,7 @@ main {
       top: -1.5vw;
       left: 0.875vw;
     }
-/*    select option[value="Red"]:after {
-      content: "";
-      background-position: center;
-      width: 2.81vw;
-      height: 2.81vw;
-      background-repeat: no-repeat;
-      margin-left: -2.5vw;
 
-
-      background-image: url(../images/red.svg);
-      background-size: 1vw;
-      position: absolute;
-    }*/
     .product__bay {
       display: flex;
       width: 100%;

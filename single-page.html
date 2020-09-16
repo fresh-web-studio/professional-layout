@@ -109,20 +109,23 @@
             <div class="product__filter">
                 <div class="product__choose">
                     <div class="product__title">CHOOSE COLOR</div>
-                    <select class="product__select" name="color" id="color">
-                        <option class="red" value="Red">Red</option>
-                        <option class="blue" value="Blue">Blue</option>
-                        <option class="green" value="Green">Green</option>
-                    </select>
-                    <div class="product__color-value"></div>
+                    <div  id="select-color">
+                        <select id="demo-htmlselect" class="product__select">
+                            <option value="0" selected="selected" data-imagesrc="images/red.svg">Red</option>
+                            <option value="1" data-imagesrc="images/blue.svg">Blue</option>
+                            <option value="2" data-imagesrc="images/green.svg">Green</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="product__choose">
                     <div class="product__title">CHOOSE SIZE</div>
-                    <select name="size" id="size">
-                        <option>XXL</option>
-                        <option>XXXL</option>
-                        <option>XXXXL</option>
-                    </select>
+                    <div  id="select-size">
+                        <select id="htmlselect" class="product__select">
+                            <option value="0" selected="selected">XXL</option>
+                            <option value="1">XXXL</option>
+                            <option value="2">XXXXL</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="product__choose">
                     <div class="product__title">CHOOSE QUANTITY</div>
@@ -339,5 +342,22 @@
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
 <script src="js/main_slider.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/prashantchaudhary/ddslick/master/jquery.ddslick.min.js" ></script>
+<script>
+    $('#select-color').ddslick({
+        width:"9vw",
+        background: "#fff",
+        onSelected: function(selectedData){
+            //callback function: do something with selectedData;
+        }
+    });
+    $('#select-size').ddslick({
+        width:"9vw",
+        background: "#fff",
+        onSelected: function(selectedData){
+            //callback function: do something with selectedData;
+        }
+    });
+</script>
 </body>
 </html>
