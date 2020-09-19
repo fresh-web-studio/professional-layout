@@ -27,6 +27,7 @@ a {
 .btn i {
   margin-left: 0.5vw;
 }
+
 header {
   height: 6.25vw;
   display: flex;
@@ -132,7 +133,7 @@ main {
     background-color: #f8f3f4;
 
     .breadcrumb-row {
-      height: 9.15vw;
+      height: 7.75vw;
     }
 
     .breadcrumb__title {
@@ -171,7 +172,102 @@ main {
     }
   }
 
+  .subscribe {
+    background: url("../images/subscribe-bg.jpg") no-repeat center;
+    background-size: cover;
 
+    .subscribe__row {
+      height: 27.375vw;
+    }
+    .subscribe__review, .subscribe__form-box {
+      width: 50%;
+    }
+
+    .subscribe__review {
+      margin-top: 8vw;
+      display: flex;
+      img {
+        width: 5.188vw;
+        height: 5.188vw;
+      }
+    }
+
+    .subscribe__review-box {
+      width: 26.5vw;
+      padding-left: 1.750vw;
+    }
+
+    .subscribe__text {
+      font-size: 1vw;
+      color: rgb(34, 34, 36);
+      font-style: italic;
+    }
+
+    .subscribe__name {
+      font-size: 1vw;
+      color: $red;
+      margin-top: 0.8vw;
+    }
+
+    .subscribe__info {
+      margin-top: 0.3vw;
+      font-size: 0.750vw;
+      color: rgb(34, 34, 36);
+    }
+
+    .subscribe__lines {
+      width: 8.750vw;
+      margin-top: 2.375vw;
+      -webkit-appearance: none;
+    }
+
+    .subscribe__line {
+      width: 2.375vw;
+      height: 0.250vw;
+      background-color: #d6d6d6;
+    }
+
+    .subscribe__line:nth-child(2) {
+      background-color: $red;
+    }
+    .subscribe__title {
+      font-size: 1.500vw;
+      margin-top: 9.125vw;
+      color: #222224;
+      text-transform: uppercase;
+    }
+
+    .subscribe__form-info {
+      font-size: 0.875vw;
+      margin-top: 0.875vw;
+    }
+
+    .subscribe__form {
+      width: 24.125vw;
+      height: 2.875vw;
+      margin-top: 2.125vw;
+    }
+
+    .subscribe__form button {
+      border-top-right-radius: 1.438vw;
+      border-bottom-right-radius: 1.438vw;
+      width: 6.500vw;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .subscribe__input {
+      font-size: 0.875vw;
+      width: 17.625vw;
+      border: none;
+      outline: none;
+      padding: 0 1.750vw;
+      font-weight: 700;
+      background-color: #e1e1e1;
+      border-top-left-radius: 1.438vw;
+      border-bottom-left-radius: 1.438vw;
+    }
+  }
 
 }
 
