@@ -1,0 +1,91 @@
+.btn {
+  border: none;
+  padding: 0.72vw 1.188vw;
+  background-color: #f16d7f;
+  font-size: 0.8748vw;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; }
+  .btn:hover {
+    background-color: #ed3e56;
+    color: #fff; }
+
+.btn i {
+  margin-left: 0.5vw; }
+
+header {
+  height: 6.25vw;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 0.625vw 0 rgba(0, 0, 0, 0.17); }
+  header .header__logo img {
+    width: 10.313vw;
+    height: 3.188vw; }
+  header .header__search {
+    border: 0.0624vw solid #e6e6e6;
+    border-radius: 0.156vw;
+    width: fit-content;
+    margin-left: 0.413vw; }
+  header .header__btnBrowse {
+    border: none;
+    border-right: 0.0624vw solid #e6e6e6;
+    width: 5.4372vw;
+    height: 2.3748vw;
+    background-color: #f8f8f8;
+    font-size: 0.8748vw;
+    color: #222222;
+    line-height: 2.6256vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; }
+  header .header__btnBrowse i {
+    margin-left: 0.5vw; }
+  header input[type="text"] {
+    width: 17.2vw;
+    font-size: 0.875vw;
+    border: none;
+    border-right: 0.0624vw solid #e6e6e6;
+    padding: 0 0.9996vw;
+    color: #a4a4a4;
+    margin: 0; }
+  header .header__btnSearch {
+    font-size: 0.8vw;
+    border: none;
+    width: 2.1876vw;
+    cursor: pointer;
+    margin: 0;
+    background-color: transparent;
+    color: #a4a4a4; }
+    header .header__btnSearch:hover {
+      color: #ed3e56; }
+  header .header__cart-link {
+    margin-left: auto;
+    margin-right: 1.625vw;
+    display: flex; }
+    header .header__cart-link:hover {
+      fill: #ed3e56; }
+
+nav .top-menu__row {
+  height: 3.125vw;
+  list-style: none; }
+nav .top-menu__link:not(last-child) {
+  margin-right: 0.875vw; }
+nav .top-menu__link {
+  padding: 0.9vw 0.563vw;
+  font-size: 0.8748vw;
+  font-weight: bold;
+  color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  border-bottom: 0.188vw solid transparent;
+  border-top: 0.188vw solid transparent; }
+  nav .top-menu__link:hover {
+    border-bottom: 0.188vw solid #ed3e56;
+    color: #ed3e56; }
+
+/*# sourceMappingURL=style-bootstrap.css.map */
