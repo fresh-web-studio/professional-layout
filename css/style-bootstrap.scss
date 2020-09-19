@@ -126,3 +126,52 @@ nav {
     }
   }
 }
+
+main {
+  .breadcrumb {
+    background-color: #f8f3f4;
+
+    .breadcrumb-row {
+      height: 9.15vw;
+    }
+
+    .breadcrumb__title {
+      font-size: 1.500vw;
+      color: $red;
+      text-transform: uppercase;
+    }
+
+    .breadcrumb-list {
+      display: flex;
+      list-style: none;
+
+      .active {
+        color: $red;
+        text-transform: uppercase;
+        font-size: 0.875vw;
+      }
+    }
+
+    .breadcrumb-item a {
+      font-size: 0.875vw;
+      color: #636363;
+      text-transform: uppercase;
+
+      &:hover {
+        color: $red-h;
+      }
+    }
+
+    .breadcrumb-item + .breadcrumb-item::before {
+      font-size: 0.875vw;
+      display: inline-block;
+      padding: 0 0.5vw;
+      color: #636363;
+      content: "/";
+    }
+  }
+
+
+
+}
+

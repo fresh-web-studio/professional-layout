@@ -93,4 +93,32 @@ nav .top-menu__link {
     border-bottom: 0.188vw solid #ed3e56;
     color: #ed3e56; }
 
+main .breadcrumb {
+  background-color: #f8f3f4; }
+  main .breadcrumb .breadcrumb-row {
+    height: 9.15vw; }
+  main .breadcrumb .breadcrumb__title {
+    font-size: 1.500vw;
+    color: #f16d7f;
+    text-transform: uppercase; }
+  main .breadcrumb .breadcrumb-list {
+    display: flex;
+    list-style: none; }
+    main .breadcrumb .breadcrumb-list .active {
+      color: #f16d7f;
+      text-transform: uppercase;
+      font-size: 0.875vw; }
+  main .breadcrumb .breadcrumb-item a {
+    font-size: 0.875vw;
+    color: #636363;
+    text-transform: uppercase; }
+    main .breadcrumb .breadcrumb-item a:hover {
+      color: #ed3e56; }
+  main .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    font-size: 0.875vw;
+    display: inline-block;
+    padding: 0 0.5vw;
+    color: #636363;
+    content: "/"; }
+
 /*# sourceMappingURL=style-bootstrap.css.map */
