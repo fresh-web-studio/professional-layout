@@ -1,3 +1,8 @@
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
 .btn {
   border: none;
   padding: 0.72vw 1.188vw;
@@ -74,7 +79,7 @@ nav .top-menu__row {
 nav .top-menu__link:not(last-child) {
   margin-right: 0.875vw; }
 nav .top-menu__link {
-  padding: 0.9vw 0.563vw;
+  padding: 0.6vw 1.063vw;
   font-size: 0.8748vw;
   font-weight: bold;
   color: #222222;

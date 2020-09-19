@@ -1,5 +1,11 @@
 $red: #f16d7f; // Основной красный цвет
 $red-h: darken($red, 10%); //цвет при наведении на кнопки
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
 
 .btn {
   border: none;
@@ -103,7 +109,7 @@ nav {
   }
 
   .top-menu__link {
-    padding: 0.9vw 0.563vw;
+    padding: 0.6vw 1.063vw;
     font-size: 0.8748vw;
     font-weight: bold;
     color: #222222;
