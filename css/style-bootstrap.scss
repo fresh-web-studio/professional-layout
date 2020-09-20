@@ -132,50 +132,105 @@ nav {
   }
 }
 
-main {
-  .breadcrumb {
-    background-color: #f8f3f4;
+.breadcrumb {
+  background-color: #f8f3f4;
 
-    .breadcrumb-row {
-      height: 7.75vw;
-    }
+  .breadcrumb-row {
+    height: 7.75vw;
+  }
 
-    .breadcrumb__title {
-      font-size: 1.500vw;
+  .breadcrumb__title {
+    font-size: 1.500vw;
+    color: $red;
+    text-transform: uppercase;
+  }
+
+  .breadcrumb-list {
+    display: flex;
+    list-style: none;
+
+    .active {
       color: $red;
       text-transform: uppercase;
-    }
-
-    .breadcrumb-list {
-      display: flex;
-      list-style: none;
-
-      .active {
-        color: $red;
-        text-transform: uppercase;
-        font-size: 0.875vw;
-      }
-    }
-
-    .breadcrumb-item a {
       font-size: 0.875vw;
-      color: #636363;
-      text-transform: uppercase;
-
-      &:hover {
-        color: $red-h;
-      }
-    }
-
-    .breadcrumb-item + .breadcrumb-item::before {
-      font-size: 0.875vw;
-      display: inline-block;
-      padding: 0 0.5vw;
-      color: #636363;
-      content: "/";
     }
   }
 
+  .breadcrumb-item a {
+    font-size: 0.875vw;
+    color: #636363;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $red-h;
+    }
+  }
+
+  .breadcrumb-item + .breadcrumb-item::before {
+    font-size: 0.875vw;
+    display: inline-block;
+    padding: 0 0.5vw;
+    color: #636363;
+    content: "/";
+  }
+}
+
+main {
+
+  #accordion {
+    .accordion__hover {
+      cursor: pointer;
+    }
+    .accordion__name {
+      font-size: 0.875vw;
+      color: $red;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .collapsed .dd-pointer-down {
+      margin-top: 0.325vw;
+      margin-bottom: 0;
+      border: solid 0.313vw transparent;
+      border-top: solid 0.313vw $red;
+    }
+    .dd-pointer-down {
+      margin-bottom: 0.375vw;
+      border: solid 0.313vw transparent;
+      border-bottom: solid 0.313vw $red;
+    }
+    .card {
+      border: 0;
+      margin-bottom: 1.125vw;
+    }
+
+    .card-header {
+      padding: 0.688vw 0.813vw;
+      background-color: #fff;
+      border-left: 0.313vw solid $red;
+    }
+    .card-header:first-child {
+      border-radius: 0;
+    }
+    .card-body {
+
+    }
+    .card-body a {
+      line-height: 2.313vw;
+      color: #6f6e6e;
+      display: block;
+      font-size: 0.875vw;
+      &:hover {
+        color: $red;
+      }
+    }
+  }
+
+
+
+}
+
+footer {
   .subscribe {
     background: url("../images/subscribe-bg.jpg") no-repeat center;
     background-size: cover;
@@ -273,9 +328,6 @@ main {
     }
   }
 
-}
-
-footer {
   .footer__top {
     padding: 6.875vw 0 5.625vw;
   }

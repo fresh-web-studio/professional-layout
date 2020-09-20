@@ -97,90 +97,124 @@ nav .top-menu__link {
     border-bottom: 0.188vw solid #ed3e56;
     color: #ed3e56; }
 
-main .breadcrumb {
+.breadcrumb {
   background-color: #f8f3f4; }
-  main .breadcrumb .breadcrumb-row {
+  .breadcrumb .breadcrumb-row {
     height: 7.75vw; }
-  main .breadcrumb .breadcrumb__title {
+  .breadcrumb .breadcrumb__title {
     font-size: 1.500vw;
     color: #f16d7f;
     text-transform: uppercase; }
-  main .breadcrumb .breadcrumb-list {
+  .breadcrumb .breadcrumb-list {
     display: flex;
     list-style: none; }
-    main .breadcrumb .breadcrumb-list .active {
+    .breadcrumb .breadcrumb-list .active {
       color: #f16d7f;
       text-transform: uppercase;
       font-size: 0.875vw; }
-  main .breadcrumb .breadcrumb-item a {
+  .breadcrumb .breadcrumb-item a {
     font-size: 0.875vw;
     color: #636363;
     text-transform: uppercase; }
-    main .breadcrumb .breadcrumb-item a:hover {
+    .breadcrumb .breadcrumb-item a:hover {
       color: #ed3e56; }
-  main .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
     font-size: 0.875vw;
     display: inline-block;
     padding: 0 0.5vw;
     color: #636363;
     content: "/"; }
-main .subscribe {
+
+main #accordion .accordion__hover {
+  cursor: pointer; }
+main #accordion .accordion__name {
+  font-size: 0.875vw;
+  color: #f16d7f;
+  font-weight: bold;
+  text-transform: uppercase; }
+main #accordion .collapsed .dd-pointer-down {
+  margin-top: 0.325vw;
+  margin-bottom: 0;
+  border: solid 0.313vw transparent;
+  border-top: solid 0.313vw #f16d7f; }
+main #accordion .dd-pointer-down {
+  margin-bottom: 0.375vw;
+  border: solid 0.313vw transparent;
+  border-bottom: solid 0.313vw #f16d7f; }
+main #accordion .card {
+  border: 0;
+  margin-bottom: 1.125vw; }
+main #accordion .card-header {
+  padding: 0.688vw 0.813vw;
+  background-color: #fff;
+  border-left: 0.313vw solid #f16d7f; }
+main #accordion .card-header:first-child {
+  border-radius: 0; }
+main #accordion .card-body a {
+  line-height: 2.313vw;
+  color: #6f6e6e;
+  display: block;
+  font-size: 0.875vw; }
+  main #accordion .card-body a:hover {
+    color: #f16d7f; }
+
+footer .subscribe {
   background: url("../images/subscribe-bg.jpg") no-repeat center;
   background-size: cover; }
-  main .subscribe .subscribe__row {
+  footer .subscribe .subscribe__row {
     height: 27.375vw; }
-  main .subscribe .subscribe__review, main .subscribe .subscribe__form-box {
+  footer .subscribe .subscribe__review, footer .subscribe .subscribe__form-box {
     width: 50%; }
-  main .subscribe .subscribe__review {
+  footer .subscribe .subscribe__review {
     margin-top: 8vw;
     display: flex; }
-    main .subscribe .subscribe__review img {
+    footer .subscribe .subscribe__review img {
       width: 5.188vw;
       height: 5.188vw; }
-  main .subscribe .subscribe__review-box {
+  footer .subscribe .subscribe__review-box {
     width: 26.5vw;
     padding-left: 1.750vw; }
-  main .subscribe .subscribe__text {
+  footer .subscribe .subscribe__text {
     font-size: 1vw;
     color: #222224;
     font-style: italic; }
-  main .subscribe .subscribe__name {
+  footer .subscribe .subscribe__name {
     font-size: 1vw;
     color: #f16d7f;
     margin-top: 0.8vw; }
-  main .subscribe .subscribe__info {
+  footer .subscribe .subscribe__info {
     margin-top: 0.3vw;
     font-size: 0.750vw;
     color: #222224; }
-  main .subscribe .subscribe__lines {
+  footer .subscribe .subscribe__lines {
     width: 8.750vw;
     margin-top: 2.375vw;
     -webkit-appearance: none; }
-  main .subscribe .subscribe__line {
+  footer .subscribe .subscribe__line {
     width: 2.375vw;
     height: 0.250vw;
     background-color: #d6d6d6; }
-  main .subscribe .subscribe__line:nth-child(2) {
+  footer .subscribe .subscribe__line:nth-child(2) {
     background-color: #f16d7f; }
-  main .subscribe .subscribe__title {
+  footer .subscribe .subscribe__title {
     font-size: 1.500vw;
     margin-top: 9.125vw;
     color: #222224;
     text-transform: uppercase; }
-  main .subscribe .subscribe__form-info {
+  footer .subscribe .subscribe__form-info {
     font-size: 0.875vw;
     margin-top: 0.875vw; }
-  main .subscribe .subscribe__form {
+  footer .subscribe .subscribe__form {
     width: 24.125vw;
     height: 2.875vw;
     margin-top: 2.125vw; }
-  main .subscribe .subscribe__form button {
+  footer .subscribe .subscribe__form button {
     border-top-right-radius: 1.438vw;
     border-bottom-right-radius: 1.438vw;
     width: 6.500vw;
     outline: none;
     cursor: pointer; }
-  main .subscribe .subscribe__input {
+  footer .subscribe .subscribe__input {
     font-size: 0.875vw;
     width: 17.625vw;
     border: none;
@@ -190,7 +224,6 @@ main .subscribe {
     background-color: #e1e1e1;
     border-top-left-radius: 1.438vw;
     border-bottom-left-radius: 1.438vw; }
-
 footer .footer__top {
   padding: 6.875vw 0 5.625vw; }
 footer .footer__row {
