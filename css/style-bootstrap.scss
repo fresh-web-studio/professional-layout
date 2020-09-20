@@ -187,12 +187,18 @@ main {
       font-weight: bold;
       text-transform: uppercase;
     }
+    .collapsed .accordion__name {
+      font-size: 0.875vw;
+      color: #6f6e6e;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
 
     .collapsed .dd-pointer-down {
       margin-top: 0.325vw;
       margin-bottom: 0;
       border: solid 0.313vw transparent;
-      border-top: solid 0.313vw $red;
+      border-top: solid 0.313vw #6f6e6e;
     }
     .dd-pointer-down {
       margin-bottom: 0.375vw;

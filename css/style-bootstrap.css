@@ -132,11 +132,16 @@ main #accordion .accordion__name {
   color: #f16d7f;
   font-weight: bold;
   text-transform: uppercase; }
+main #accordion .collapsed .accordion__name {
+  font-size: 0.875vw;
+  color: #6f6e6e;
+  font-weight: bold;
+  text-transform: uppercase; }
 main #accordion .collapsed .dd-pointer-down {
   margin-top: 0.325vw;
   margin-bottom: 0;
   border: solid 0.313vw transparent;
-  border-top: solid 0.313vw #f16d7f; }
+  border-top: solid 0.313vw #6f6e6e; }
 main #accordion .dd-pointer-down {
   margin-bottom: 0.375vw;
   border: solid 0.313vw transparent;
