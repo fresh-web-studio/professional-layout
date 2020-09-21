@@ -293,9 +293,9 @@ main {
     .products__filter {
       padding: 0.625vw;
       background-color: #f3f3f3;
-
       align-content: center;
       margin-top: 2.500vw;
+      margin-bottom: 1vw;
     }
     .products__filter-unit label {
       margin-bottom: 0;
@@ -332,7 +332,7 @@ main {
       padding-right: 20px;
     }
     .products__item-top {
-      margin-top: 3vw;
+      margin-top: 2vw;
     }
     .products__item:hover {
       box-shadow: 0 0.3120vw 0.5004vw 0 rgba(0, 0, 0, 0.16);
@@ -405,7 +405,7 @@ main {
       text-transform: uppercase;
     }
     .products__pagination-btn {
-      margin-top: 3.125vw;
+      margin-top: 2.225vw;
       margin-bottom: 6.750vw;
     }
     .page-item.active .page-link, .page-item .page-link:hover {

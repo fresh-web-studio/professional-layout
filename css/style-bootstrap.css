@@ -212,7 +212,8 @@ main .products .products__filter {
   padding: 0.625vw;
   background-color: #f3f3f3;
   align-content: center;
-  margin-top: 2.500vw; }
+  margin-top: 2.500vw;
+  margin-bottom: 1vw; }
 main .products .products__filter-unit label {
   margin-bottom: 0;
   border-right: 1px solid #ebebeb; }
@@ -243,7 +244,7 @@ main .products .products__filter-unit select {
   background-size: 9px;
   padding-right: 20px; }
 main .products .products__item-top {
-  margin-top: 3vw; }
+  margin-top: 2vw; }
 main .products .products__item:hover {
   box-shadow: 0 0.312vw 0.5004vw 0 rgba(0, 0, 0, 0.16); }
 main .products .products__img-button {
@@ -294,7 +295,7 @@ main .products .products__price {
   font-weight: bold;
   text-transform: uppercase; }
 main .products .products__pagination-btn {
-  margin-top: 3.125vw;
+  margin-top: 2.225vw;
   margin-bottom: 6.750vw; }
 main .products .page-item.active .page-link, main .products .page-item .page-link:hover {
   color: #f16d7f;
