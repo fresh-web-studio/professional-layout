@@ -427,7 +427,7 @@ footer .footer__column:first-child {
   width: 26.875vw; }
 footer .footer__column li {
   list-style: none; }
-footer .footer__column li:not(last-child) {
+footer .footer__column li:not(:last-child) {
   margin-top: 1.688vw;
   line-height: 1vw; }
 footer .footer__column a {

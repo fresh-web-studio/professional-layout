@@ -1,4 +1,4 @@
-$red: #f16d7f; // Основной красный цвет
+$red: #f16d7f; // "Основной красный" цвет
 $red-h: darken($red, 10%); //цвет при наведении на кнопки
 a {
   text-decoration: none;
@@ -597,7 +597,7 @@ footer {
     list-style: none;
   }
 
-  .footer__column li:not(last-child) {
+  .footer__column li:not(:last-child) {
     margin-top: 1.688vw;
     line-height: 1vw;
   }
