@@ -1,3 +1,7 @@
+* {
+  font-family: Lato, sans-serif;
+  box-sizing: border-box; }
+
 a {
   text-decoration: none; }
   a:hover {
@@ -339,6 +343,65 @@ main .feature-box {
     line-height: 1.714; }
   main .feature-box .feature-box__center {
     text-align: center; }
+main .checkout {
+  margin-top: 5.313vw; }
+  main .checkout .checkout-accordion__title {
+    font-size: 16px;
+    color: #222222;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    cursor: pointer;
+    justify-content: space-between; }
+    main .checkout .checkout-accordion__title:hover {
+      color: #f16d7f; }
+  main .checkout .checkout-accordion__body {
+    padding: 2.188vw; }
+  main .checkout .checkout-accordion__form-title {
+    font-size: 0.813vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0.938vw; }
+  main .checkout .checkout-accordion__form-description {
+    font-size: 0.813vw;
+    color: #b3b2b2;
+    font-weight: 400;
+    margin-bottom: 1.875vw; }
+  main .checkout #reg1, main .checkout #reg2 {
+    display: none; }
+  main .checkout label[for="reg1"], main .checkout label[for="reg2"] {
+    display: block;
+    margin-bottom: 1.250vw;
+    padding-left: 1.750vw;
+    font-size: 0.750vw;
+    color: #222222;
+    text-transform: uppercase;
+    background: url(../images/regEmpty.png) no-repeat left center; }
+  main .checkout #reg1:checked + label, main .checkout #reg2:checked + label {
+    background: url(../images/regChecked.png) no-repeat left center; }
+  main .checkout .checkout-accordion__form-arrow {
+    font-size: 0.813vw;
+    padding-left: 0.750vw;
+    margin-bottom: 0.938vw;
+    color: #b3b2b2;
+    font-weight: 400;
+    background: url(../images/arrows.png) no-repeat left center; }
+  main .checkout .checkout-accordion__btn {
+    display: flex;
+    width: 11.250vw;
+    height: 3.125vw;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #b3b2b2;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    background-color: #fff;
+    cursor: pointer; }
+    main .checkout .checkout-accordion__btn:hover {
+      background-color: #ed3e56;
+      color: #fff;
+      border: 1px solid transparent; }
 
 footer .subscribe {
   background: url("../images/subscribe-bg.jpg") no-repeat center;

@@ -1,3 +1,8 @@
+* {
+  font-family: Lato, sans-serif;
+  box-sizing: border-box;
+}
+
 $red: #f16d7f; // "Основной красный" цвет
 $red-h: darken($red, 10%); //цвет при наведении на кнопки
 a {
@@ -460,6 +465,83 @@ main {
       text-align: center;
     }
   }
+
+  .checkout {
+    margin-top: 5.313vw;
+    .checkout-accordion__title {
+      font-size: 16px;
+      color: rgb(34, 34, 34);
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.2;
+      cursor: pointer;
+      justify-content: space-between;
+      &:hover {
+        color: $red;
+      }
+    }
+    .checkout-accordion__body {
+      padding: 2.188vw;
+    }
+    .checkout-accordion__form-title {
+      font-size: 0.813vw;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 0.938vw;
+    }
+    .checkout-accordion__form-description {
+      font-size: 0.813vw;
+      color: #b3b2b2;
+      font-weight: 400;
+      margin-bottom: 1.875vw;
+    }
+    #reg1, #reg2 {
+      display: none;
+    }
+    label[for="reg1"], label[for="reg2"] {
+      display: block;
+      margin-bottom: 1.250vw;
+      padding-left: 1.750vw;
+      font-size: 0.750vw;
+      color: rgb(34, 34, 34);
+      text-transform: uppercase;
+      background: url(../images/regEmpty.png) no-repeat left center;
+    }
+
+    #reg1:checked + label, #reg2:checked + label {
+      background: url(../images/regChecked.png) no-repeat left center;
+    }
+    .checkout-accordion__form-arrow {
+      font-size: 0.813vw;
+      padding-left: 0.750vw;
+      margin-bottom: 0.938vw;
+      color: #b3b2b2;
+      font-weight: 400;
+      background: url(../images/arrows.png) no-repeat left center;
+
+    }
+    .checkout-accordion__btn {
+      display: flex;
+      width: 11.250vw;
+      height: 3.125vw;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #b3b2b2;
+      text-transform: uppercase;
+      color: #4a4a4a;
+      background-color: #fff;
+      cursor: pointer;
+      &:hover {
+        background-color: $red-h;
+        color: #fff;
+        border: 1px solid transparent;
+
+      }
+    }
+
+  }
+
 }
 
 footer {
@@ -748,4 +830,5 @@ footer {
       font-size: 0.875vw * $coefficient;
     }
   }
+
 }
