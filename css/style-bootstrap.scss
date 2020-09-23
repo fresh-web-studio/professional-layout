@@ -686,6 +686,7 @@ footer {
 
   .footer__row {
     height: 4.938vw;
+    justify-content: space-between;
   }
 
   .footer__logo {
@@ -717,12 +718,9 @@ footer {
   }
 
   .footer__column li {
-    list-style: none;
-  }
-
-  .footer__column li:not(:last-child) {
     margin-top: 1.688vw;
     line-height: 1vw;
+    list-style: none;
   }
 
   .footer__column a {
@@ -1025,6 +1023,64 @@ footer {
         border-top-left-radius: 1.438vw * $coefficient;
         border-bottom-left-radius: 1.438vw * $coefficient;
       }
+    }
+
+    .footer__top {
+      padding: 16vw 3.938vw;
+    }
+
+    .footer__row {
+      height: 24vw;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .footer__logo {
+      width: 10.250vw * $coefficient;
+      height: 3.188vw * $coefficient;
+    }
+
+    .footer__text {
+      font-size: 0.875vw * $coefficient;
+      margin-top: 1.813vw * $coefficient;
+      line-height: 1.438vw * $coefficient;
+    }
+
+    .footer__name {
+      font-size: 1.125vw * $coefficient;
+      margin-top: 10vw;
+    }
+
+    .footer__bottom {
+      height: 24vw;
+    }
+
+    .footer__column:first-child, .footer__column  {
+      width: 100vw;
+      text-align: center;
+    }
+
+    .footer__column li:not(:last-child), .footer__column li {
+      margin-top: 1.688vw * $coefficient;
+      line-height: 1vw * $coefficient;
+    }
+
+    .footer__column a {
+      font-size: 1vw * $coefficient;
+    }
+
+    .footer__copyright {
+      font-size: 1vw * $coefficient;
+    }
+
+    .footer__social {
+      width: 11.938vw * $coefficient;
+    }
+
+    .footer__btn {
+      padding: 0.6vw * $coefficient 0.6vw * $coefficient;
+      font-size: 0.729vw * $coefficient;
+      width: 2vw * $coefficient;
     }
   }
 }
