@@ -31,19 +31,14 @@ ul, li {
 .btn i {
   margin-left: 0.5vw;
 }
-
+.container {
+  padding: 0;
+}
 header {
   height: 6.25vw;
   display: flex;
   align-items: center;
   box-shadow: 0 0 0.625vw 0 rgba(0, 0, 0, 0.17);
-  @media (max-width: 575.98px) {
-    .row {
-      div:nth-child(2) {
-        order: 3;
-      }
-    }
-  }
 
   .header__logo img {
     width: 10.313vw;
@@ -80,7 +75,6 @@ header {
     width: 17.2vw;
     font-size: 0.875vw;
     border: none;
-    border-right: 0.0624vw solid rgb(230, 230, 230);
     padding: 0 0.9996vw;
     color: #a4a4a4;
     margin: 0;
@@ -90,6 +84,7 @@ header {
     font-size: 0.8vw;
     border: none;
     width: 2.1876vw;
+    border-left: 0.0624vw solid rgb(230, 230, 230);
     cursor: pointer;
     margin: 0;
     background-color: transparent;
@@ -108,11 +103,6 @@ header {
     &:hover {
       fill: $red-h;
     }
-  }
-}
-@media (max-width: 575.98px) {
-  header {
-    height: 19vw;
   }
 }
 
@@ -650,4 +640,66 @@ footer {
     }
   }
 
+}
+
+@media (max-width: 575.98px) {
+  $coefficient: 4;
+  .container {
+    padding-right: 3.938vw;
+    padding-left: 3.938vw;
+  }
+  .btn {
+    padding: 0.72vw * $coefficient 1.188vw * $coefficient;
+    font-size: 0.8748vw * $coefficient;
+  }
+  header {
+    height: 31vw;
+    .d-flex {
+      div:nth-child(2) {
+        order: 3;
+        margin-top: 2vw;
+      }
+    }
+    .header__logo img {
+      width: 10.313vw * $coefficient;
+      height: 3.188vw * $coefficient;
+    }
+
+    .header__search {
+      border: 0.0624vw * $coefficient solid rgb(230, 230, 230);
+      border-radius: 0.156vw * $coefficient;
+      width: inherit;
+      margin-left: 0;
+    }
+
+    .header__btnBrowse {
+      border-right: 0.0624vw * $coefficient solid rgb(230, 230, 230);
+      width: 5.4372vw * $coefficient;
+      height: 2.3748vw * $coefficient;
+      font-size: 0.8748vw * $coefficient;
+      line-height: 2.6256vw * $coefficient;
+    }
+
+    .header__btnBrowse i {
+      margin-left: 0.5vw * $coefficient;
+    }
+
+    input[type="text"] {
+      width: 59.4vw;
+      font-size: 0.875vw * $coefficient;
+      padding: 0 0.9996vw * $coefficient;
+      margin: 0;
+    }
+
+    .header__btnSearch {
+      font-size: 0.8vw * $coefficient;
+      width: 10.3504vw;
+      border-left: 0.0624vw * $coefficient solid rgb(230, 230, 230);
+    }
+
+    .header__cart-link {
+      margin-left: 0;
+      margin-right: auto;
+    }
+  }
 }

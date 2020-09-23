@@ -24,14 +24,14 @@ ul, li {
 .btn i {
   margin-left: 0.5vw; }
 
+.container {
+  padding: 0; }
+
 header {
   height: 6.25vw;
   display: flex;
   align-items: center;
   box-shadow: 0 0 0.625vw 0 rgba(0, 0, 0, 0.17); }
-  @media (max-width: 575.98px) {
-    header .row div:nth-child(2) {
-      order: 3; } }
   header .header__logo img {
     width: 10.313vw;
     height: 3.188vw; }
@@ -59,7 +59,6 @@ header {
     width: 17.2vw;
     font-size: 0.875vw;
     border: none;
-    border-right: 0.0624vw solid #e6e6e6;
     padding: 0 0.9996vw;
     color: #a4a4a4;
     margin: 0; }
@@ -67,6 +66,7 @@ header {
     font-size: 0.8vw;
     border: none;
     width: 2.1876vw;
+    border-left: 0.0624vw solid #e6e6e6;
     cursor: pointer;
     margin: 0;
     background-color: transparent;
@@ -80,9 +80,6 @@ header {
     header .header__cart-link:hover {
       fill: #ed3e56; }
 
-@media (max-width: 575.98px) {
-  header {
-    height: 19vw; } }
 nav .top-menu__row {
   height: 2.825vw;
   list-style: none; }
@@ -460,5 +457,48 @@ footer .footer__btn {
   footer .footer__btn:hover {
     background-color: #ed3e56;
     color: #fff; }
+
+@media (max-width: 575.98px) {
+  .container {
+    padding-right: 3.938vw;
+    padding-left: 3.938vw; }
+
+  .btn {
+    padding: 2.88vw 4.752vw;
+    font-size: 3.4992vw; }
+
+  header {
+    height: 31vw; }
+    header .d-flex div:nth-child(2) {
+      order: 3;
+      margin-top: 2vw; }
+    header .header__logo img {
+      width: 41.252vw;
+      height: 12.752vw; }
+    header .header__search {
+      border: 0.2496vw solid #e6e6e6;
+      border-radius: 0.624vw;
+      width: inherit;
+      margin-left: 0; }
+    header .header__btnBrowse {
+      border-right: 0.2496vw solid #e6e6e6;
+      width: 21.7488vw;
+      height: 9.4992vw;
+      font-size: 3.4992vw;
+      line-height: 10.5024vw; }
+    header .header__btnBrowse i {
+      margin-left: 2vw; }
+    header input[type="text"] {
+      width: 59.4vw;
+      font-size: 3.5vw;
+      padding: 0 3.9984vw;
+      margin: 0; }
+    header .header__btnSearch {
+      font-size: 3.2vw;
+      width: 10.3504vw;
+      border-left: 0.2496vw solid #e6e6e6; }
+    header .header__cart-link {
+      margin-left: 0;
+      margin-right: auto; } }
 
 /*# sourceMappingURL=style-bootstrap.css.map */
