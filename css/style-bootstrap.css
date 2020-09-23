@@ -29,6 +29,9 @@ header {
   display: flex;
   align-items: center;
   box-shadow: 0 0 0.625vw 0 rgba(0, 0, 0, 0.17); }
+  @media (max-width: 575.98px) {
+    header .row div:nth-child(2) {
+      order: 3; } }
   header .header__logo img {
     width: 10.313vw;
     height: 3.188vw; }
@@ -77,6 +80,9 @@ header {
     header .header__cart-link:hover {
       fill: #ed3e56; }
 
+@media (max-width: 575.98px) {
+  header {
+    height: 19vw; } }
 nav .top-menu__row {
   height: 2.825vw;
   list-style: none; }
