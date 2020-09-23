@@ -345,8 +345,11 @@ main .feature-box {
     text-align: center; }
 main .checkout {
   margin-top: 5.313vw; }
+  main .checkout .checkout-accordion__block {
+    border-bottom: 0.063vw solid #b3b2b2; }
   main .checkout .checkout-accordion__title {
-    font-size: 16px;
+    margin: 1.625vw 0;
+    font-size: 1vw;
     color: #222222;
     font-weight: bold;
     text-transform: uppercase;
@@ -356,7 +359,11 @@ main .checkout {
     main .checkout .checkout-accordion__title:hover {
       color: #f16d7f; }
   main .checkout .checkout-accordion__body {
-    padding: 2.188vw; }
+    padding: 2.188vw;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  main .checkout .checkout-accordion__column {
+    width: 50%; }
   main .checkout .checkout-accordion__form-title {
     font-size: 0.813vw;
     font-weight: 700;
@@ -378,8 +385,17 @@ main .checkout {
     color: #222222;
     text-transform: uppercase;
     background: url(../images/regEmpty.png) no-repeat left center; }
+  main .checkout label[for="reg3"], main .checkout label[for="reg4"] {
+    display: block;
+    margin-top: 1.563vw;
+    margin-bottom: 0.938vw;
+    font-size: 0.750vw;
+    color: #222222;
+    text-transform: uppercase; }
   main .checkout #reg1:checked + label, main .checkout #reg2:checked + label {
     background: url(../images/regChecked.png) no-repeat left center; }
+  main .checkout #reg3, main .checkout #reg4 {
+    width: 18.125vw; }
   main .checkout .checkout-accordion__form-arrow {
     font-size: 0.813vw;
     padding-left: 0.750vw;
@@ -402,6 +418,17 @@ main .checkout {
       background-color: #ed3e56;
       color: #fff;
       border: 1px solid transparent; }
+  main .checkout .checkout-accordion__form-star {
+    font-size: 0.813vw;
+    color: #ff0d0d; }
+  main .checkout .checkout-accordion__form-error {
+    margin-top: 2vw;
+    font-size: 0.813vw;
+    color: #ff0d0d; }
+  main .checkout .checkout-accordion__form-bottom {
+    margin-top: 2vw; }
+  main .checkout .checkout-accordion__forget {
+    margin-left: 2vw; }
 
 footer .subscribe {
   background: url("../images/subscribe-bg.jpg") no-repeat center;
