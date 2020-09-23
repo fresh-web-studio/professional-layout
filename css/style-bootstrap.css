@@ -499,6 +499,32 @@ footer .footer__btn {
       border-left: 0.2496vw solid #e6e6e6; }
     header .header__cart-link {
       margin-left: 0;
-      margin-right: auto; } }
+      margin-right: auto; }
+
+  nav .top-menu__row {
+    height: 23vw; }
+  nav .top-menu__link:not(last-child) {
+    margin-right: 0; }
+  nav .top-menu__link {
+    padding: 2.4vw 4.252vw;
+    font-size: 3.4992vw;
+    border-bottom: 0.752vw solid transparent;
+    border-top: 0.752vw solid transparent; }
+    nav .top-menu__link:hover {
+      border-bottom: 0.752vw solid #ed3e56; }
+
+  .breadcrumb .breadcrumb-row {
+    flex-direction: column;
+    height: 15vw; }
+  .breadcrumb .breadcrumb__title {
+    font-size: 6vw; }
+  .breadcrumb .breadcrumb-list {
+    padding: 0; }
+    .breadcrumb .breadcrumb-list .active {
+      font-size: 3.5vw; }
+  .breadcrumb .breadcrumb-item a {
+    font-size: 3.5vw; }
+  .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    font-size: 3.5vw; } }
 
 /*# sourceMappingURL=style-bootstrap.css.map */
