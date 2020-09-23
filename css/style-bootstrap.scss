@@ -469,6 +469,7 @@ main {
 
   .checkout {
     margin-top: 5.313vw;
+    margin-bottom: 5.313vw;
     .checkout-accordion__block {
       border-bottom: 0.063vw solid #b3b2b2;
     }
@@ -946,5 +947,84 @@ footer {
       }
     }
   }
+  footer {
+    .subscribe {
+      background-size: cover;
+      .subscribe__row {
+        height: inherit;
+        flex-wrap: wrap;
+      }
+      .subscribe__review, .subscribe__form-box {
+        width: 100%;
+      }
 
+      .subscribe__review {
+        margin-top: 16vw;
+        img {
+          width: 5.188vw * $coefficient;
+          height: 5.188vw * $coefficient;
+        }
+      }
+
+      .subscribe__review-box {
+        width: 26.5vw * $coefficient;
+        padding-left: 1.750vw * $coefficient;
+      }
+
+      .subscribe__text {
+        font-size: 1vw * $coefficient;
+      }
+
+      .subscribe__name {
+        font-size: 1vw * $coefficient;
+        margin-top: 0.8vw * $coefficient;
+      }
+
+      .subscribe__info {
+        margin-top: 0.3vw * $coefficient;
+        font-size: 0.750vw * $coefficient;
+      }
+
+      .subscribe__lines {
+        width: 8.750vw * $coefficient;
+        margin-top: 2.375vw * $coefficient;
+      }
+
+      .subscribe__line {
+        width: 2.375vw * $coefficient;
+        height: 0.250vw * $coefficient;
+      }
+
+      .subscribe__title {
+        font-size: 1.500vw * $coefficient;
+        margin-top: 15vw;
+      }
+
+      .subscribe__form-info {
+        font-size: 0.875vw * $coefficient;
+        margin-top: 0.875vw * $coefficient;
+      }
+
+      .subscribe__form {
+        width: 24.125vw * $coefficient;
+        height: 2.875vw * $coefficient;
+        margin-top: 2.125vw * $coefficient;
+        margin-bottom: 15vw;
+      }
+
+      .subscribe__form button {
+        border-top-right-radius: 1.438vw * $coefficient;
+        border-bottom-right-radius: 1.438vw * $coefficient;
+        width: 6.500vw * $coefficient;
+      }
+
+      .subscribe__input {
+        font-size: 0.875vw * $coefficient;
+        width: 17.625vw * $coefficient;
+        padding: 0 1.750vw * $coefficient;
+        border-top-left-radius: 1.438vw * $coefficient;
+        border-bottom-left-radius: 1.438vw * $coefficient;
+      }
+    }
+  }
 }

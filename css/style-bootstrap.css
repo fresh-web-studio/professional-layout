@@ -344,7 +344,8 @@ main .feature-box {
   main .feature-box .feature-box__center {
     text-align: center; }
 main .checkout {
-  margin-top: 5.313vw; }
+  margin-top: 5.313vw;
+  margin-bottom: 5.313vw; }
   main .checkout .checkout-accordion__block {
     border-bottom: 0.063vw solid #b3b2b2; }
   main .checkout .checkout-accordion__title {
@@ -671,6 +672,57 @@ footer .footer__btn {
       margin-top: 8vw; }
     main .checkout .checkout-accordion__forget {
       margin-left: 8vw;
-      font-size: 4vw; } }
+      font-size: 4vw; }
+
+  footer .subscribe {
+    background-size: cover; }
+    footer .subscribe .subscribe__row {
+      height: inherit;
+      flex-wrap: wrap; }
+    footer .subscribe .subscribe__review, footer .subscribe .subscribe__form-box {
+      width: 100%; }
+    footer .subscribe .subscribe__review {
+      margin-top: 16vw; }
+      footer .subscribe .subscribe__review img {
+        width: 20.752vw;
+        height: 20.752vw; }
+    footer .subscribe .subscribe__review-box {
+      width: 106vw;
+      padding-left: 7vw; }
+    footer .subscribe .subscribe__text {
+      font-size: 4vw; }
+    footer .subscribe .subscribe__name {
+      font-size: 4vw;
+      margin-top: 3.2vw; }
+    footer .subscribe .subscribe__info {
+      margin-top: 1.2vw;
+      font-size: 3vw; }
+    footer .subscribe .subscribe__lines {
+      width: 35vw;
+      margin-top: 9.5vw; }
+    footer .subscribe .subscribe__line {
+      width: 9.5vw;
+      height: 1vw; }
+    footer .subscribe .subscribe__title {
+      font-size: 6vw;
+      margin-top: 15vw; }
+    footer .subscribe .subscribe__form-info {
+      font-size: 3.5vw;
+      margin-top: 3.5vw; }
+    footer .subscribe .subscribe__form {
+      width: 96.5vw;
+      height: 11.5vw;
+      margin-top: 8.5vw;
+      margin-bottom: 15vw; }
+    footer .subscribe .subscribe__form button {
+      border-top-right-radius: 5.752vw;
+      border-bottom-right-radius: 5.752vw;
+      width: 26vw; }
+    footer .subscribe .subscribe__input {
+      font-size: 3.5vw;
+      width: 70.5vw;
+      padding: 0 7vw;
+      border-top-left-radius: 5.752vw;
+      border-bottom-left-radius: 5.752vw; } }
 
 /*# sourceMappingURL=style-bootstrap.css.map */
