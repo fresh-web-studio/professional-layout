@@ -428,7 +428,10 @@ main .checkout {
   main .checkout .checkout-accordion__form-bottom {
     margin-top: 2vw; }
   main .checkout .checkout-accordion__forget {
-    margin-left: 2vw; }
+    margin-left: 2vw;
+    color: #4a4a4a; }
+    main .checkout .checkout-accordion__forget:hover {
+      color: #ed3e56; }
 
 footer .subscribe {
   background: url("../images/subscribe-bg.jpg") no-repeat center;
@@ -615,6 +618,58 @@ footer .footer__btn {
   .breadcrumb .breadcrumb-item a {
     font-size: 3.5vw; }
   .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
-    font-size: 3.5vw; } }
+    font-size: 3.5vw; }
+
+  main .checkout {
+    margin-top: 5.313vw; }
+    main .checkout .checkout-accordion__block {
+      border-bottom: 0.252vw solid #b3b2b2; }
+    main .checkout .checkout-accordion__title {
+      margin: 6.5vw 0;
+      font-size: 4vw; }
+    main .checkout .checkout-accordion__body {
+      padding: 2.188vw; }
+    main .checkout .checkout-accordion__column {
+      width: 100%; }
+    main .checkout .checkout-accordion__form-title {
+      font-size: 3.252vw;
+      margin-bottom: 3.752vw; }
+    main .checkout .checkout-accordion__form-description {
+      font-size: 3.252vw;
+      margin-bottom: 7.5vw; }
+    main .checkout label[for="reg1"], main .checkout label[for="reg2"] {
+      margin-bottom: 5vw;
+      padding-left: 7vw;
+      font-size: 3vw; }
+    main .checkout label[for="reg3"], main .checkout label[for="reg4"] {
+      margin-top: 6.252vw;
+      margin-bottom: 3.752vw;
+      font-size: 3vw; }
+    main .checkout #reg3, main .checkout #reg4 {
+      width: inherit;
+      height: 12vw;
+      font-size: 8vw; }
+    main .checkout .checkout-accordion__form-arrow {
+      font-size: 3.252vw;
+      padding-left: 3vw;
+      margin-bottom: 3.752vw;
+      background-size: 2vw; }
+    main .checkout .checkout-accordion__btn {
+      width: 45vw;
+      height: 12.5vw;
+      border: 0.252vw solid #b3b2b2; }
+      main .checkout .checkout-accordion__btn:hover {
+        border: 0.252vw solid transparent; }
+    main .checkout .mb-10 {
+      margin-bottom: 10vw; }
+    main .checkout .checkout-accordion__form-star {
+      font-size: 3.252vw; }
+    main .checkout .checkout-accordion__form-error {
+      margin-top: 8vw;
+      font-size: 3.252vw; }
+    main .checkout .checkout-accordion__form-bottom {
+      margin-top: 8vw; }
+    main .checkout .checkout-accordion__forget {
+      margin-left: 8vw; } }
 
 /*# sourceMappingURL=style-bootstrap.css.map */

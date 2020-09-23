@@ -445,6 +445,7 @@ main {
       }
     }
   }
+
   .feature-box {
     background: #222224;
     padding-top: 5.625vw;
@@ -539,7 +540,6 @@ main {
       color: #b3b2b2;
       font-weight: 400;
       background: url(../images/arrows.png) no-repeat left center;
-
     }
     .checkout-accordion__btn {
       display: flex;
@@ -556,7 +556,6 @@ main {
         background-color: $red-h;
         color: #fff;
         border: 1px solid transparent;
-
       }
     }
     .checkout-accordion__form-star {
@@ -574,9 +573,12 @@ main {
 
     .checkout-accordion__forget {
       margin-left: 2vw;
+      color: #4a4a4a;
+      &:hover {
+        color: $red-h;
+      }
     }
   }
-
 }
 
 footer {
@@ -769,6 +771,7 @@ footer {
     padding: 0.72vw * $coefficient 1.188vw * $coefficient;
     font-size: 0.8748vw * $coefficient;
   }
+
   header {
     height: 31vw;
     .d-flex {
@@ -819,6 +822,7 @@ footer {
       margin-right: auto;
     }
   }
+
   nav {
     .top-menu__row {
       height: 23vw;
@@ -839,6 +843,7 @@ footer {
       }
     }
   }
+
   .breadcrumb {
 
     .breadcrumb-row {
@@ -863,6 +868,81 @@ footer {
 
     .breadcrumb-item + .breadcrumb-item::before {
       font-size: 0.875vw * $coefficient;
+    }
+  }
+
+  main {
+    .checkout {
+      margin-top: 5.313vw;
+      .checkout-accordion__block {
+        border-bottom: 0.063vw * $coefficient solid #b3b2b2;
+      }
+      .checkout-accordion__title {
+        margin: 1.625vw * $coefficient 0;
+        font-size: 1vw * $coefficient;
+      }
+      .checkout-accordion__body {
+        padding: 2.188vw;
+      }
+      .checkout-accordion__column {
+        width: 100%;
+      }
+      .checkout-accordion__form-title {
+        font-size: 0.813vw * $coefficient;
+        margin-bottom: 0.938vw * $coefficient;
+      }
+      .checkout-accordion__form-description {
+        font-size: 0.813vw * $coefficient;
+        margin-bottom: 1.875vw * $coefficient;
+      }
+      label[for="reg1"], label[for="reg2"] {
+        margin-bottom: 1.250vw * $coefficient;
+        padding-left: 1.750vw * $coefficient;
+        font-size: 0.750vw * $coefficient;
+      }
+      label[for="reg3"], label[for="reg4"] {
+        margin-top: 1.563vw * $coefficient;
+        margin-bottom: 0.938vw * $coefficient;
+        font-size: 0.750vw * $coefficient;
+      }
+
+      #reg3, #reg4 {
+        width: inherit;
+        height: 12vw;
+        font-size: 8vw;
+      }
+      .checkout-accordion__form-arrow {
+        font-size: 0.813vw * $coefficient;
+        padding-left: 0.750vw * $coefficient;
+        margin-bottom: 0.938vw * $coefficient;
+        background-size: 2vw;
+      }
+      .checkout-accordion__btn {
+        width: 11.250vw * $coefficient;
+        height: 3.125vw * $coefficient;
+        border: 0.063vw * $coefficient solid #b3b2b2;
+        &:hover {
+          border: 0.063vw * $coefficient solid transparent;
+        }
+      }
+      .mb-10 {
+        margin-bottom: 10vw;
+      }
+
+      .checkout-accordion__form-star {
+        font-size: 0.813vw * $coefficient;
+      }
+      .checkout-accordion__form-error {
+        margin-top: 2vw * $coefficient;
+        font-size: 0.813vw * $coefficient;
+      }
+      .checkout-accordion__form-bottom {
+        margin-top: 2vw * $coefficient;
+      }
+
+      .checkout-accordion__forget {
+        margin-left: 2vw * $coefficient;
+      }
     }
   }
 
