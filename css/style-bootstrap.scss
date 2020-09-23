@@ -730,7 +730,11 @@ footer {
       color: $red-h;
     }
   }
-
+  .footer__nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
   .footer__copyright {
     font-size: 1vw;
     color: rgb(122, 122, 122);

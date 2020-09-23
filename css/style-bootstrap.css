@@ -532,6 +532,10 @@ footer .footer__column a {
   font-size: 1vw; }
   footer .footer__column a:hover {
     color: #ed3e56; }
+footer .footer__nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
 footer .footer__copyright {
   font-size: 1vw;
   color: #7a7a7a; }
