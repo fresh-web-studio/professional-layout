@@ -286,6 +286,172 @@ main {
     }
   }
 
+  .feature {
+    .feature__title {
+      font-size: 1.8756vw;
+      color: rgb(34, 34, 34);
+      text-align: center;
+    }
+
+    .feature__info {
+      font-size: 0.8748vw;
+      color: rgb(159, 159, 159);
+      text-align: center;
+    }
+
+    .feature__list {
+      margin-top: 2.4996vw;
+      margin-bottom: 3.7500vw;
+      gap: 2.500vw 0.9372vw;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .feature__item:hover {
+      box-shadow: 0 0.3120vw 0.5004vw 0 rgba(0, 0, 0, 0.16);
+    }
+
+    .feature__img-button {
+      height: 22.4996vw;
+      position: relative;
+    }
+
+    .feature__photo {
+      width: 100%;
+      display: block;
+      height: inherit;
+      object-fit: cover;
+      object-position: center center;
+    }
+
+    .feature__bay-button {
+      height: inherit;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      display: none;
+      position: absolute;
+    }
+
+    .feature__item:hover .feature__bay-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .feature__bay {
+      fill: #fff;
+      padding: 0.9372vw;
+      border: 0.0624vw solid #ffffff;
+      background: none;
+      color: #fff;
+      font-size: 0.8124vw;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .feature__bay:hover {
+      background-color: $main-color-hover;
+    }
+
+    .feature__bay svg {
+      margin-right: 0.6252vw;
+    }
+
+    .feature__name-price {
+      padding: 0.9372vw;
+    }
+
+    .feature-name {
+      margin-bottom: 0.9372vw;
+      font-size: 0.8124vw;
+      color: rgb(34, 34, 34);
+      text-transform: uppercase;
+    }
+
+    .feature-price {
+      font-size: 0.9996vw;
+      color: $main-color;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .feature-btn {
+      width: 13.2504vw;
+      margin: 0 auto;
+    }
+  }
+
+  .banner-feature {
+    .section {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+
+    .banner-feature__banner {
+      height: 33.063vw;
+      background-image: url("../images/banner-bg.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+
+    .banner-feature__offer {
+      margin-left: 2.313vw;
+      margin-top: 9.313vw;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    .banner-feature__title {
+      font-size: 3.351vw;
+
+      span {
+        color: $main-color;
+      }
+    }
+
+    .banner-feature__info {
+      font-size: 2.011vw;
+    }
+
+    .banner-feature__feature-box-list {
+      display: flex;
+      flex-direction: column;
+      background-color: #222224;
+      color: #fbfbfb;
+      padding: 1.5vw 0;
+    }
+
+    .banner-feature__feature-box {
+      padding: 1.42vw 1.875vw 1.42vw 6.875vw;
+    }
+    .banner-feature__feature-box:first-child {
+      background: url(../images/feature-box1.png) no-repeat 2.250vw 1vw;
+    }
+
+    .banner-feature__feature-box:nth-child(2) {
+      background: url(../images/feature-box2.png) no-repeat 2.250vw 1vw;
+    }
+
+    .banner-feature__feature-box:last-child {
+      background: url(../images/feature-box3.png) no-repeat 2.250vw 1vw;
+    }
+
+    .banner-feature__box-title {
+      font-size: 1.250vw;
+      color: #fbfbfb;
+    }
+
+    .banner-feature__box-text {
+      margin-top: 0.8vw;
+      font-size: 0.975vw;
+      line-height: 1.500vw;
+      color: #fbfbfb;
+    }
+  }
+
   .checkout {
     margin-top: 5.313vw;
     margin-bottom: 5.313vw;
@@ -591,6 +757,10 @@ footer {
     font-size: 0.8748vw * $coefficient;
   }
 
+  .section {
+    padding: (2.8128vw * $coefficient) (0.9996vw * $coefficient);
+  }
+
   header {
     height: 31vw;
     .d-flex {
@@ -759,6 +929,116 @@ footer {
       }
     }
 
+    .feature {
+      .feature__title {
+        font-size: 1.8756vw * $coefficient;
+      }
+
+      .feature__info {
+        font-size: 0.8748vw * $coefficient;
+      }
+
+      .feature__list {
+        margin-top: 2.4996vw * $coefficient;
+        margin-bottom: 3.7500vw * $coefficient;
+        gap: 2.500vw * $coefficient;
+        display: grid;
+        grid-template-columns: 1fr;
+
+      }
+
+
+      .feature__item:hover {
+        box-shadow: 0 (0.3120vw * $coefficient) (0.5004vw * $coefficient) 0 rgba(0, 0, 0, 0.16);
+      }
+
+      .feature__img-button {
+        height: 100vw;
+      }
+
+      .feature__bay {
+        fill: #fff;
+        padding: 0.9372vw * $coefficient;
+        border: 0.0624vw * $coefficient solid #ffffff;
+        font-size: 0.8124vw * $coefficient;
+      }
+
+      .feature__bay svg {
+        margin-right: 0.6252vw * $coefficient;
+      }
+
+      .feature__name-price {
+        padding: 0.9372vw * $coefficient;
+      }
+
+      .feature-name {
+        margin-bottom: 0.9372vw * $coefficient;
+        font-size: 0.8124vw * $coefficient;
+      }
+
+      .feature-price {
+        font-size: 0.9996vw * $coefficient;
+      }
+
+      .feature-btn {
+        width: 60vw;
+        margin: 0 auto;
+      }
+    }
+
+    .banner-feature {
+      .section {
+        grid-template-columns: 1fr;
+      }
+
+      .banner-feature__banner {
+        height: 33.063vw;
+      }
+
+      .banner-feature__offer {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 5.252vw;
+      }
+
+      .banner-feature__title {
+        font-size: 9.404vw;
+      }
+
+      .banner-feature__info {
+        font-size: 5.044vw;
+
+      }
+
+      .banner-feature__feature-box-list {
+        padding: (1.5vw * $coefficient) 0;
+      }
+
+      .banner-feature__feature-box {
+        padding: 6.42vw 5.875vw 3.42vw 23.875vw;
+      }
+      .banner-feature__feature-box:first-child {
+        background: url(../images/feature-box1.png) no-repeat 8.25vw 5vw;
+      }
+
+      .banner-feature__feature-box:nth-child(2) {
+        background: url(../images/feature-box2.png) no-repeat 8.25vw 5vw;
+      }
+
+      .banner-feature__feature-box:last-child {
+        background: url(../images/feature-box3.png) no-repeat 8.25vw 5vw;
+      }
+
+      .banner-feature__box-title {
+        font-size: 1.250vw * $coefficient;
+      }
+
+      .banner-feature__box-text {
+        margin-top: 0.8vw * $coefficient;
+        font-size: 0.975vw * $coefficient;
+        line-height: 1.500vw * $coefficient;
+      }
+    }
 
     .checkout {
       margin-top: 5.313vw;
