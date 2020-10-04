@@ -31,6 +31,9 @@ ul, li {
 .container {
   padding: 0; }
 
+.section {
+  padding: 2.8128vw 0; }
+
 header {
   height: 6.25vw;
   display: flex;
@@ -158,27 +161,28 @@ main .promo {
     main .promo .promo__info span {
       color: #f16d7f; }
 main .category .category__list {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  height: 54.9984vw; }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 16.313vw;
+  gap: 0.9372vw; }
 main .category .category__item {
-  width: 34.6884vw;
-  margin: 0.9372vw;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 34.6872vw; }
+  background-position: center; }
 main .category .category__item:first-child {
-  height: 33.8748vw;
+  grid-row-start: 1;
+  grid-row-end: 3;
   background-image: url(../images/category_item1.jpg); }
 main .category .category__item:nth-child(2) {
-  height: 16.3128vw;
-  background-image: url(../images/category_item2.jpg); }
-main .category .category__item:nth-child(3) {
-  height: 16.3128vw;
+  grid-row-start: 1;
+  grid-row-end: 2;
   background-image: url(../images/category_item3.jpg); }
+main .category .category__item:nth-child(3) {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-image: url(../images/category_item2.jpg); }
 main .category .category__item:last-child {
-  height: 33.8748vw;
+  grid-row-start: 2;
+  grid-row-end: 4;
   background-image: url(../images/category_item4.jpg); }
 main .category .category__badge {
   margin-top: 1.5624vw;
@@ -483,6 +487,33 @@ footer .footer__btn {
   main .promo .promo__info {
     font-size: 3.4996vw;
     line-height: 5vw; }
+  main .category .category__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 62.313vw;
+    gap: 3.7488vw; }
+  main .category .category__item {
+    background-position: top center;
+    background-size: 134vw; }
+  main .category .category__item:first-child {
+    grid-row-start: 1;
+    grid-row-end: 2; }
+  main .category .category__item:nth-child(2) {
+    grid-row-start: 2;
+    grid-row-end: 3; }
+  main .category .category__item:nth-child(3) {
+    grid-row-start: 3;
+    grid-row-end: 4; }
+  main .category .category__item:last-child {
+    grid-row-start: 4;
+    grid-row-end: 5; }
+  main .category .category__badge {
+    margin-top: 6.2496vw;
+    padding: 3.9984vw 3.9984vw; }
+  main .category .category__text {
+    font-size: 4.5024vw; }
+  main .category .category__title {
+    font-size: 7.5024vw; }
   main .checkout {
     margin-top: 5.313vw; }
     main .checkout .checkout-accordion__block {
