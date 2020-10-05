@@ -1,0 +1,14 @@
+<svg id="regChecked" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #555;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <circle id="regEmpty" class="cls-1" cx="7" cy="7" r="7"/>
+  <circle cx="7" cy="7" r="3"/>
+</svg>
