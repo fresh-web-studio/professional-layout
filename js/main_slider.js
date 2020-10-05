@@ -5,7 +5,15 @@ $(document).ready(function(){
             items: 1,
             nav:true,
             navText: ['<i class="fas fa-angle-left"></i>','<i class="fas fa-angle-right"></i>'],
-            dots:false
+            dots:false,
+            responsive: {
+                0:{
+                    nav:false
+                },
+                600:{
+                    nav:true
+                }
+            }
         }
     )
 })
